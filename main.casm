@@ -1,0 +1,10 @@
+LABEL "start";
+    MOVE REG_A, 10;
+    CMP REG_A, 10;      // This SHOULD set the Zero Flag
+    JUMP_ZERO "is_equal";
+    PRINT 999;          // Should NOT print this
+    HALT;
+
+LABEL "is_equal";
+    PRINT 123;          // Should print 123
+    HALT;

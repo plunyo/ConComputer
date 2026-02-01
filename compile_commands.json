@@ -26,12 +26,12 @@
       "-DDEBUG=1",
       "-c",
       "-o",
-      "build/cpu.o",
-      "src/cpu.c"
+      "build/timer.o",
+      "src/timer.c"
     ],
     "directory": "/home/plunyo/Coding/ConComputer",
-    "file": "/home/plunyo/Coding/ConComputer/src/cpu.c",
-    "output": "/home/plunyo/Coding/ConComputer/build/cpu.o"
+    "file": "/home/plunyo/Coding/ConComputer/src/timer.c",
+    "output": "/home/plunyo/Coding/ConComputer/build/timer.o"
   },
   {
     "arguments": [
@@ -43,11 +43,28 @@
       "-DDEBUG=1",
       "-c",
       "-o",
-      "build/timer.o",
-      "src/timer.c"
+      "build/computer.o",
+      "src/computer.c"
     ],
     "directory": "/home/plunyo/Coding/ConComputer",
-    "file": "/home/plunyo/Coding/ConComputer/src/timer.c",
-    "output": "/home/plunyo/Coding/ConComputer/build/timer.o"
+    "file": "/home/plunyo/Coding/ConComputer/src/computer.c",
+    "output": "/home/plunyo/Coding/ConComputer/build/computer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-g",
+      "-Wall",
+      "-Werror",
+      "-Isrc",
+      "-DDEBUG=1",
+      "-c",
+      "-o",
+      "build/assembler.o",
+      "src/assembler.c"
+    ],
+    "directory": "/home/plunyo/Coding/ConComputer",
+    "file": "/home/plunyo/Coding/ConComputer/src/assembler.c",
+    "output": "/home/plunyo/Coding/ConComputer/build/assembler.o"
   }
 ]
