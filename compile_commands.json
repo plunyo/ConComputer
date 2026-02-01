@@ -26,12 +26,12 @@
       "-DDEBUG=1",
       "-c",
       "-o",
-      "build/cpu/cpu.o",
-      "src/cpu/cpu.c"
+      "build/cpu.o",
+      "src/cpu.c"
     ],
     "directory": "/home/plunyo/Coding/ConComputer",
-    "file": "/home/plunyo/Coding/ConComputer/src/cpu/cpu.c",
-    "output": "/home/plunyo/Coding/ConComputer/build/cpu/cpu.o"
+    "file": "/home/plunyo/Coding/ConComputer/src/cpu.c",
+    "output": "/home/plunyo/Coding/ConComputer/build/cpu.o"
   },
   {
     "arguments": [
@@ -43,11 +43,11 @@
       "-DDEBUG=1",
       "-c",
       "-o",
-      "build/timer/timer.o",
-      "src/timer/timer.c"
+      "build/timer.o",
+      "src/timer.c"
     ],
     "directory": "/home/plunyo/Coding/ConComputer",
-    "file": "/home/plunyo/Coding/ConComputer/src/timer/timer.c",
-    "output": "/home/plunyo/Coding/ConComputer/build/timer/timer.o"
+    "file": "/home/plunyo/Coding/ConComputer/src/timer.c",
+    "output": "/home/plunyo/Coding/ConComputer/build/timer.o"
   }
 ]
